@@ -87,5 +87,21 @@ int main() {
     double pi = 3.14159;
     pi = 4.92;
     //PI = 4.56; Da error ya que la hicimos constante por lo que no se permite modificar su valor a diferencia de el otro pi
+    
+//Métodos utilies para strings
+
+    std::string nombre = "Emiliano";
+
+    //nombre.length();//Cuenta cuantos caracteres tiene una cadena
+    //nombre.empty();//Te dice si una cadena esta vacia o no
+    //nombre.append(" Garcia");//Agrega lo que queramos a la cadena al final de la cadena
+    //char pos = nombre.at(0);//Se usa para saber que caracter se encuentra en una posición especifica
+    //nombre.insert(0, "Martin ");//Insertar un caracter o una cadena en una posición especifica
+    //int lugar = nombre.find("Garcia");//Sirve para saber en que posición espeficia se encuentra una cadena o caracter
+    //nombre.erase(4, 6);//Sirve para borrar porciones de la cadena 
+    //nombre.clear();//Borra todo lo que haya en la cadena
+
+    std::cout << nombre;
+
     return 0;
 }
