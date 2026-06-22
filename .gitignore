@@ -1,0 +1,6 @@
+.vscode/tasks.json
+# Ejecutables compilados de Windows
+*.exe
+
+# Carpetas de configuración local de VS Code o compiladores
+.vscode/
